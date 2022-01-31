@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+.Login {
+    font-family: 'Segoe UI', Helvetica;
+    background-color: #fa7c95;
+    margin: 0; 
+    display: flex;
+    height: 100vh;
+}
+.Login__logo {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+.logo {
+    height: 600px;
+    width: 600px;
+}
+.Login__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    right: 180px;
+}
+h1 {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;font-family: 'Varela Round', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+input {
+    border: none;
+    border-radius: 50px;
+    width: 85%;
+    height: 35px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+input::placeholder {
+    color: #ff3c6a;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+input:hover {
+    background-color: #ff3c6a;
+    transition: 0.5s;
+}
+.forgot {
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+    height: 35px;
+    outline: none;
+    background-color: #fa7c95;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.forgot:hover {
+    transition: 0.5s;
+}
+.send {
+    border: none;
+    border-radius: 50px;
+    width: 50%;
+    height: 37px;
+    outline: none;
+    background-color: #ff3c6a;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: #fff;
+    color: #ff3c6a;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nop {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Varela Round', sans-serif;
+}
+.cadastro {
+    border: none;
+    border-radius: 50px;
+    width: 170px;
+    height: 37px;
+    outline: none;
+    background-color: #ff3c6a;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.cadastro:hover {
+    background-color: #fff;
+    color: #ff3c6a;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.Google__logo {
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 50px;
+}
+.Google__button {
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff3c6a;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.termos {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-right: -7px;
+    color: #AC0C31;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+.bolota {
+    height: 17px;
+    width: 17px;
+}

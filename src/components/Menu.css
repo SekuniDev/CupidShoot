@@ -1,0 +1,45 @@
+.Menu {
+    width: 17%;
+    max-width: 415px;
+    position: fixed;
+    left: 171;
+    top: 70px;
+    background-color: #ff3c6a;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #fff;
+    transition: all ease 0.5s;
+    border-radius: 20px;
+}
+.Menu__body {
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    align-items: left;
+    margin: 10px;
+}
+.Sair:hover {
+    color: #AC0C31;
+}
+.TermosDeUso:hover {
+    color: #AC0C31;
+}
+.DadosDoApp:hover {
+    color: #AC0C31;
+}
+.PolíticadePrivacidade:hover {
+    color: #AC0C31;
+}
+.backbutton1 {
+    margin: 8px;
+    margin-top: 11px;
+    margin-right: 14px;
+    margin-left: 11px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+}

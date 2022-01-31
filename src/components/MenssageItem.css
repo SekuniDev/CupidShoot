@@ -1,0 +1,30 @@
+.MenssageLine {
+    display: flex;
+}
+.MenssageItem {
+    background-color: #FF4A6E;
+    max-width: 78%;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px #86151C;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+.MenssageText {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    margin: 5px 50px 5px 5px;
+    max-width: 700px;
+    overflow: hidden;
+}
+.MenssageDate {
+    font-size: 13px;
+    color: #e6e5e5;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 7px;
+    text-align: right;
+    height: 18px;
+    margin-top: -13px;
+}

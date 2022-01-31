@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.chatListItem {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid #FF4A6E;
+}
+.chatListItem:hover {
+    background-color: #FF4A6E;
+    transition: 0.5s;
+}
+.chatListItem.active {
+    background-color: #FF4A6E;
+}
+.chatListItem__icon {
+    border-radius: 100%;
+    border: 3px solid #FA7C95;
+    height: 60px;
+    margin-left: 10px;
+    width: 60px;
+}
+.chatListItem__lines {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    min-width: 15px;
+    padding-right: 15px;
+}
+.chatListItem__line {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.chatListItem__name {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+}
+.chatListItem__date {
+    color: #FA7C95;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.chatListItem__lastMsg {
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+}
+p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

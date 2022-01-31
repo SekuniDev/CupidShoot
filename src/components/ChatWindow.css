@@ -1,0 +1,128 @@
+.chatWindow {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #fff;
+    height: 100%;
+}
+.ChatWindow__body {
+    flex: 1;
+    padding: 10px 20px;
+    bottom: 70px;
+    top: 70px;
+    right: 0;
+    left: 400px;
+    position: fixed;
+    background-color: #AC0C31;
+    background-size: cover;
+    background-position: cover;
+    border-left: 3px solid #fff;
+}
+.ChatWindow__body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    overflow: visible;
+    border-radius: 50px;
+}
+.ChatWindow__body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255);
+}
+.ChatWindow__header {
+    height: 70px;
+    border-bottom: 3px solid #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fa7c95;
+    border-left: 3px solid #fff;
+    align-items: center;
+}
+.ChatWindow__headerinfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.ChatWindow__icon {
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    border: 3px solid #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ChatWindow__name {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.ChatWindow__headerbuttons {
+    display: flex;
+    transition: all ease 0.5s;
+    align-items: center;
+    margin-right: 17px;
+}
+.ChatWindow__btn {
+    height: 30px;
+    width: 30px;
+    margin-right: 11px;
+    filter: invert(100%);
+    cursor: pointer;
+    margin-left: 15px;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+.ChatWindow__footer {
+    height: 70px;
+    width: 70.7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF5C7C;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+    bottom: 3px;
+    position: fixed;
+}
+.ChatWindow__pre {
+    display: flex;
+}
+.ChatWindow__pos {
+    display: flex;
+}
+.inputArea {
+    flex: 1;
+}
+.inputArea__input {
+    border: none;
+    border-radius: 25px;
+    flex: 1;
+    width: 96%;
+    height: 35px;
+    margin-left: 10px;
+    outline: none;
+    text-align: center;
+}
+.inputArea__input::placeholder {
+    color: #DE0F3F;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+.inputArea__input:hover {
+    background-color: #DE0F3F;
+    transition: 0.5s;
+}
+.ChatWindow__emojiarea {
+    height: 300px;
+    overflow-y: hidden;
+    transition: all ease 0.5s;
+    position: fixed;
+    bottom: 0;
+}
+aside.emoji-picker-react {
+    width: auto;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: none;
+}

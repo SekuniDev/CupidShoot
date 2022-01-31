@@ -1,0 +1,60 @@
+.Termosde {
+    width: 100%;
+    max-width: 962px;
+    position: fixed;
+    left: 403;
+    top: -5px;
+    right: 0;
+    bottom: 0;
+    background-color: #AC0C31;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all ease 0.01s;
+}
+.Termosde__header {
+    display: flex;
+    background-color: #ff4a6e;
+    height: 59px;
+    align-items: center;
+    border-bottom: 3px solid #fff;
+    padding: 15px 15px 15px 15px;
+}
+.headtitle {
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    display: flex;
+    color: #fff;
+}
+.backbutton {
+    margin-right: 10px;
+    margin-left: 27px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Termosde__body {
+    margin: 10px;
+    background-color: #ff4a6e;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+.Termosde__body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+.Termosde__body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255);
+}
+h4 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    display: flex;
+    color: #fff;
+    font-weight: normal;
+}
